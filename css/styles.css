@@ -1,5 +1,8 @@
-/* Navigation Section */
+body {
+    margin: 0 auto;
+}
 
+/* Navigation Section */
 header {
     width: 100%;
     color: black;
