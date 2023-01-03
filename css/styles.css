@@ -1,3 +1,7 @@
+body {
+    background-color: lightsalmon;
+}
+
 nav {
     display: inline-block;
 }
