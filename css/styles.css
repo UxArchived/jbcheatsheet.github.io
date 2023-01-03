@@ -9,3 +9,10 @@ nav {
 nav.ul {
     width: 100px;
 }
+
+.Hero-sect {
+    background-color: azure;
+    width: 100%;
+    text-align: center;
+    
+}
