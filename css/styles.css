@@ -6,15 +6,19 @@ header {
     width: 100%;
     background-color: white;
     color: black;
-    position: relative;
+    position: fixed;
 }
 
 ul {
     padding: 24px 0px;
+    text-align: center;
+    margin: 30px auto;
 }
 
 li {
     display: inline-block;
+    width: 120px;
+    text-transform: uppercase;
 }
 
 
