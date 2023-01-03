@@ -1,6 +1,7 @@
+/* Navigation Section */
+
 header {
     width: 100%;
-    background-color: white;
     color: black;
     position: fixed;
 }
@@ -26,6 +27,104 @@ li {
     position: relative;
 }
 
+
+/* Grid Structure */
+.content-grid {
+    grid-template: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background Colours */
+
 .bg-blue-900 {
     background-color: #152238;
+}
+
+.bg-blue-800 {
+    background-color: #283B5A;
+}
+
+.bg-blue-700 {
+    background-color: #3F567C;
+}
+
+.bg-blue-600 {
+    background-color: #5C749E;
+}
+
+.bg-blue-500 {
+    background-color: #7C96C0;
+}
+
+.bg-blue-400 {
+    background-color: #A2BAE2;
+}
+
+.bg-blue-300 {
+    background-color: #C8DCFF;
+}
+
+.bg-blue-200 {
+    background-color: #D4E4FF;
+}
+
+.bg-blue-100 {
+    background-color: #E1ECFF;
+}
+
+.bg-blue-50 {
+    background-color: #EDF4FF;
+}
+
+/* Typography Colours */
+
+.type-blue-900 {
+    color: #152238;
+}
+
+.type-blue-800 {
+    color: #283B5A;
+}
+
+.type-blue-700 {
+    color: #3F567C;
+}
+
+.type-blue-600 {
+    color: #5C749E;
+}
+
+.type-blue-500 {
+    color: #7C96C0;
+}
+
+.type-blue-400 {
+    color: #A2BAE2;
+}
+
+.type-blue-300 {
+    color: #C8DCFF;
+}
+
+.type-blue-200 {
+    color: #D4E4FF;
+}
+
+.type-blue-100 {
+    color: #E1ECFF;
+}
+
+.type-blue-50 {
+    color: #EDF4FF;
 }
