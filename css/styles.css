@@ -21,6 +21,15 @@ li {
     text-transform: uppercase;
 }
 
+li:active {
+    text-decoration: none;
+}
+
+li:visited {
+    text-decoration: none;
+}
+
+
 #hero-sect {
     top: 100px;
     background-color: azure;
