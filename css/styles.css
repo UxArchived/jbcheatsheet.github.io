@@ -1,0 +1,7 @@
+nav {
+    display: inline-block;
+}
+
+nav.ul {
+    width: 100px;
+}
