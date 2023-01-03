@@ -1,7 +1,3 @@
-body {
-    background-color: lightsalmon;
-}
-
 header {
     width: 100%;
     background-color: white;
@@ -21,12 +17,14 @@ li {
     text-transform: uppercase;
 }
 
-
-
 #hero-sect {
     top: 100px;
     background-color: azure;
     width: 100%;
     height: 100%;
     text-align: center;
+}
+
+.bg-blue-900 {
+    background-color: #152238;
 }
