@@ -1,22 +1,26 @@
 body {
     margin: 0 auto;
+    background-color: whitesmoke;
 }
 
 /* Navigation Section */
 header {
     width: 100%;
+    background-color: white;
     color: black;
-    border-color: #283B5A;
+    border-color: #d9d9d9;
     border-width: 0px 0px 1px 0px;
     border-style: solid;
     display: flex;
-    height: 80px;
-    padding-top: 24px;
+    height: 64px;
+    padding-top: 16px;
     z-index: 10;
 }
 
 nav {
     width: 50%;
+    align-content: center;
+    text-align: center;
 }
 
 .navigation-end {
@@ -32,7 +36,6 @@ nav {
 #navigation-right p {
     padding-right: 80px;
     float: right;
-    top: 0;
 }
 
 nav ul {
@@ -42,8 +45,9 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    width: 80px;
+    display: inline;
+    width: 100px;
+    padding: 8px 8px;
     text-transform: uppercase;
 }
 
@@ -74,18 +78,29 @@ main {
 #content-grid {
     margin-top: 16px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
 }
 
 
 @media (max-width: 1200px){
     #content-grid {
-        grid-template-columns: auto auto;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        columns: 50%;
     }
 
     main {
         padding: 24px 64px;
+    }
+
+    #navigation-left p {
+        float: left;
+        padding-left: 64px;
+    }
+    
+    #navigation-right p {
+        padding-right: 64px;
+        float: right;
     }
 }
 
@@ -97,39 +112,66 @@ main {
     main {
         padding: 24px 40px;
     }
+
+    #navigation-left p {
+        float: left;
+        padding-left: 40px;
+    }
+    
+    #navigation-right p {
+        padding-right: 40px;
+        float: right;
+    }
 }
 
 /* Table */
 .table-container {
     border-radius: 4px;
-    background-color: #283B5A;
+    background-color: white;
     padding: 16px 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 table {
     width: 100%;
-    border-color: #3F567C;
-    border-width: 1px 1px 1px 1px;
-    border-style: solid;
-    padding: 24px 0px;
     border-radius: 3px;
+    padding-bottom: 8px;
 }
 
 tr {
-    width: 100%;
+    width: 100%;   
+    vertical-align: text-top; 
 }
 
 th {
-    padding: 0px 24px;
+    padding: 8px 24px;
     text-align: left;
+    border-color: #f4f4f4;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
 }
 
 td {
-    padding: 0px 24px;
+    padding: 16px 24px;
+    padding-bottom: 8px;
 }
 
+h5 {
+    line-height: 0;
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
 
+.container-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.table-tag {
+    width: 25%;
+}
 
 /* Margin */
 
